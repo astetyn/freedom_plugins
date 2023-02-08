@@ -1,6 +1,0 @@
-name: FreedomBungeeChat
-main: me.astetyne.Main
-author: astetyne
-depends: [LuckPerms]
-version: 1.0-SNAPSHOT
-description: ${project.description}

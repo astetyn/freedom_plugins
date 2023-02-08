@@ -1,9 +1,0 @@
-name: SharedEcoAccountAddon
-main: me.astetyne.Main
-version: 1.0
-author: astetyne
-depend: [Essentials]
-commands:
-  sharedaccountsreload:
-    permission: sharedaccounts.reload
-    usage: /sharedaccountsreload
