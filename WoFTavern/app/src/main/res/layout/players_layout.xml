@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools" android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:text="online_players"
+            android:shadowDx="0.0"
+            android:shadowDy="0.0"
+            android:shadowRadius="10"
+            android:shadowColor="#A1A1A1"
+            android:textColor="#FFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pl_online_players_tv"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:textSize="30sp"
+            android:fontFamily="@font/mc_font2"/>
+    <ListView
+            android:id="@+id/players_list" android:clipToPadding="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_height="0dp" android:layout_width="0dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginBottom="30dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp" app:layout_constraintTop_toBottomOf="@+id/pl_online_players_tv"
+            android:layout_marginTop="30dp" android:dividerHeight="20dp" android:divider="@android:color/transparent">
+    </ListView>
+
+    <androidx.constraintlayout.widget.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guideline2"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.5"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
