@@ -1,0 +1,6 @@
+name: ${project.name}
+main: me.astetyne.Main
+author: astetyne
+depends: [LuckPerms]
+version: ${project.version}
+description: ${project.description}
