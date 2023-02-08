@@ -1,0 +1,9 @@
+  name: GUIShopDynamicPriceAddon
+  main: me.astetyne.DynamicPriceAddon
+  version: 1.0
+  author: astetyne
+  depend: [GUIShop]
+  commands:
+    dynamicpricingreload:
+      permission: dynamicpricing.reload
+      usage: /dynamicpricingreload
